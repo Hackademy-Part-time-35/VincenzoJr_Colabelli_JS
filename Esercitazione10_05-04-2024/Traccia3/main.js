@@ -9,3 +9,6 @@ let potenza = variabile1 ** variabile2;
 let modulo = variabile1 % variabile2;
 
 console.log(`Con i numeri da te scelti, i risultati delle varie operazioni sono: somma = ${somma}, sottrazione = ${sottrazione}, moltiplicazione = ${moltiplicazione}, divisione = ${divisione}, potenza = ${potenza}, modulo ${modulo}`);
+
+// MOlto bene
+// Vedi commento per traccia 2
