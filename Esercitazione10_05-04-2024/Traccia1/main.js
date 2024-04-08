@@ -9,5 +9,7 @@ let media = somma / 5;
 
 console.log(`La somma equivale a ${somma}, la media equivale a ${media}`);
 
+// MOlto bene Vincenzo, ottimo l'uso del concatemaneto tra stringhe e variabili
+
 
 
