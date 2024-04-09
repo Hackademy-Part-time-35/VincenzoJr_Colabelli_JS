@@ -7,7 +7,11 @@ let num5 = 50;
 let somma = num1 + num2 + num3 + num4 + num5;
 let media = somma / 5;
 
-console.log(`La somma equivale a ${somma}, la media equivale a ${media}`);
+let frase = (`La somma equivale a ${somma}, la media equivale a ${media}`);
+let frase_maiuscola = frase.toUpperCase();
+console.log(frase_maiuscola);
+
+
 
 
 
