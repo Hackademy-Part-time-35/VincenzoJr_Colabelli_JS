@@ -1,4 +1,4 @@
-
+// Ottimo
 let num_bevanda = parseInt(prompt(`Inserisci il numero della bevanda che preferisci`));
 
 let scelta = true;
