@@ -1,3 +1,5 @@
+
+// Bene, ottimo lavoro 
 let numero = parseInt(prompt(`Inserisci un numero, e ti dico da quante cifre è composto:`));
 
 function calcolo(numero) {  

@@ -1,4 +1,4 @@
-
+// Ok
 let numero = parseInt(prompt(`Inserisci fino a che numero devo mostrarti:`));
 
 function calcolo(n) {

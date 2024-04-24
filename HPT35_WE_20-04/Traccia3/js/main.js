@@ -1,4 +1,5 @@
-
+// Molto bene VIncenzo
+// una cosa: evita di dare ai parametri della funzione conv(), nomi non paralanti, perchè questo non rende il codice chiaro a una lettura futura oppure alla lettura di un collega con cui stai lavorando   
 let valutaIniziale = prompt(`Inserisci la valuta da convertire: Euro, Dollari o Sterline`);
 let valutaFinale = prompt(`Inserisci la valuta in cui vuoi convertirla: Euro, Dollari o Sterline`);
 let importo = parseInt(prompt(`Inserisci l'importo da convertire:`));

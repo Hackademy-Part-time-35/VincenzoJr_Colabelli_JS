@@ -1,3 +1,4 @@
+// Bene vincenzo, hai fatto benissimo a utilizzare entrambi i metodi, è sempre un'ottima cosa allenarsi e sperimentarsi
 let numeri_decrescenti = [13, 22, 10, 33, 23, 66, 1, 6, 44, 40];
 
 numeri_decrescenti.sort( (a, b) => b - a );

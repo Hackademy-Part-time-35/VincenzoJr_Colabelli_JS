@@ -1,3 +1,4 @@
+// Bene, l'unica cosa: hai usato la proprietà eta e gli hai assegnato un valore stringa, sarebbe stato più comodo se avessi assegnato un valore numerico, in quanto in una situzioane simile, quel valore poteva servire in operaizoni matematiche
 let persona = {
 
     nome: 'Vincenzo',

@@ -1,3 +1,4 @@
+// bene
 let domanda = parseInt(prompt(`Inserisci la temperatura da convertire da °C a °F`));
 
 function calcolo(domanda) {

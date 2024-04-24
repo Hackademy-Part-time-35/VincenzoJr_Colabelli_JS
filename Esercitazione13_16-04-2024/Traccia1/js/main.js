@@ -1,4 +1,5 @@
-
+// Bene Vincenzo
+// una cosa: sarebbe stata più efficente, nel senso che si poteva ri-utilizzare, che la funzione dado() accettasse un parametro corrispondendete alla variabile lancio_dadi
 let lancio_dadi = parseInt(prompt("Inserire il numero di tiri del dado di ogni giocatore: "));
 
 let player1 = 0;

@@ -1,3 +1,5 @@
+// Benissimo, ottimo lavoro
+// non 'era bisogno di dichiarare la variabile guess_num se devi usarla solo come parametro formale
 let domanda = parseInt(prompt(`Indovina il numero compreso tra 1 e 100.
 Hai 5 tentativi a disposizione.`));
 
