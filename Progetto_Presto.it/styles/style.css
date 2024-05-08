@@ -10,16 +10,34 @@
     --my-bg-primario: #BF7245;
     --my-bg-secondario: #3B4F8C;
     --my-color-white: #ffffff;
+    --hover-items:  #fce8e5;
 }
 
 .logo {
     font-size: 3rem;
+    color: var(--myTitle);
+}
+
+.loghi {
+    color: var(--myTitle);
+}
+
+.logo-name {
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
 
 .navigazione {
-    background-color: var(--my-bg-primario);
+    background-color: var(--my-color-white);
 }
 
-.colore {
-    color: #ffffff;
+:hover.items-nav {
+    border-radius: 10px;
+    background-color: var(--hover-items);
 }
+
+.dropdown-menu {
+
+    --bs-dropdown-link-hover-bg: var(--hover-items);
+}
+
