@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+  @media screen and (max-width: 576px) {
+    .my-img {
+        width: 10vw;
+        height: 10vh;
+    }
+  }
+
 * {
     font-family: "Montserrat", sans-serif;
 }
@@ -10,7 +18,7 @@
     --my-bg-primario: #BF7245;
     --my-bg-secondario: #3B4F8C;
     --my-color-white: #ffffff;
-    --hover-items: #fadcc9;
+    --hover-items: #ffd2ce;
 }
 
 .logo-sito {
@@ -20,6 +28,15 @@
 
 .loghi-color {
     color: var(--myTitle);
+}
+
+:active.nav-link i{
+    color: var(--my-color-white);
+}
+
+:active.nav-link{
+    color: var(--my-color-white);
+    transition: unset;
 }
 
 .logo-name {
@@ -38,14 +55,51 @@
 
 :active.items-nav {
     border-radius: 10px;
-    background-color: var(--my-bg-primario);
+    background-color: var(--myTitle);
+    color: white;
 }
 
 .dropdown-menu {
     --bs-dropdown-link-hover-bg: var(--hover-items);
-    --bs-dropdown-link-active-bg: var(--my-bg-primario);
-    --bs-dropdown-link-active-color: (0,0,0);
+    --bs-dropdown-link-active-bg: var(--myTitle);
+    --bs-dropdown-link-active-color: var(--my-color-white);
 }
+
+:active.dropdown-menu i{
+    color: var(--my-color-white);
+}
+
+:active.navbar-nav{
+    --bs-nav-link-disabled-color: var(--my-color-white);
+}
+
+:active.navbar {
+    --bs-navbar-disabled-color: var(--my-color-white);
+    --bs-navbar-active-color: var(--my-color-white);
+}
+
+.my-img {
+    background-image: url(../img/house-1477041_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.my-img-text {
+    display: none;
+}
+
+:hover.my-img .my-img-text {
+    backdrop-filter: blur(6px);
+    width: 100%;
+    color: black;
+    display: inline-block;
+    animation: fadeInLeft;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 1s;
+}
+
 
 
 
