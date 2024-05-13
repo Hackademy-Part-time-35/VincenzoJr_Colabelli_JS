@@ -11,10 +11,16 @@
     --my-bg-secondario: #3B4F8C;
     --my-color-white: #ffffff;
     --hover-items: #ffd2ce;
+    --bg-main: #fff4f3;
 }
 
 .logo-sito {
     font-size: 3rem;
+    color: var(--myTitle);
+}
+
+.logo-sito-annunci {
+    font-size: 2rem;
     color: var(--myTitle);
 }
 
@@ -41,12 +47,10 @@
 }
 
 :hover.items-nav {
-    border-radius: 10px;
     background-color: var(--hover-items);
 }
 
 :active.items-nav {
-    border-radius: 10px;
     background-color: var(--myTitle);
     color: white;
 }
@@ -92,6 +96,45 @@
     animation-duration: 1s;
 }
 
+.button-color {
+    background-color: var(--myTitle);
+    color: var(--my-color-white);
+}
+
+:active.button-color {
+    background-color: var(--myTitle);
+    --bs-btn-active-bg: var(--myTitle);
+
+}
+
+:hover.button-color {
+    background-color: var(--hover-items);
+}
+
+.bg-main {
+    background-color: var(--bg-main);
+}
 
 
+.card {
+--bs-card-border-radius: none;
+--bs-card-inner-border-radius: none;
+}
 
+.btn {
+--bs-btn-border-radius: none;
+}
+
+:hover.card {
+    background-color: var(--bg-main);   
+}
+
+.titoli-card {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+:hover.titoli-card {
+    text-decoration: underline;
+}
