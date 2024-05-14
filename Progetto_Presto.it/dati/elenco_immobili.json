@@ -1,0 +1,24 @@
+[
+
+{"id":1,"city":"New York","prezzo":511.431,"metri_quadrati":247,"numero_camere":5,"giardino":false,"piscina":false,"vista_mare":false,"home":false,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":2,"city":"Roma","prezzo":642.985,"metri_quadrati":463,"numero_camere":10,"giardino":true,"piscina":false,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":3,"city":"Torino","prezzo":906.291,"metri_quadrati":473,"numero_camere":10,"giardino":true,"piscina":false,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/dddddd/000000"},
+{"id":4,"city":"Tokyo","prezzo":1.439820,"metri_quadrati":250,"numero_camere":8,"giardino":false,"piscina":false,"vista_mare":false,"home":false,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":5,"city":"Los Angeles","prezzo":621.654,"metri_quadrati":191,"numero_camere":9,"giardino":true,"piscina":false,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":6,"city":"Milano","prezzo":694.195,"metri_quadrati":393,"numero_camere":4,"giardino":true,"piscina":false,"vista_mare":false,"home":true,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":7,"city":"Londra","prezzo":747.573,"metri_quadrati":125,"numero_camere":4,"giardino":false,"piscina":false,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/5fa2dd/ffffff"},
+{"id":8,"city":"Berlino","prezzo":1.150590,"metri_quadrati":641,"numero_camere":4,"giardino":true,"piscina":true,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/dddddd/000000"},
+{"id":9,"city":"Firenze","prezzo":715.227,"metri_quadrati":196,"numero_camere":8,"giardino":true,"piscina":false,"vista_mare":false,"home":false,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":10,"city":"Venezia","prezzo":1.353392,"metri_quadrati":582,"numero_camere":4,"giardino":false,"piscina":true,"vista_mare":true,"home":false,"immagine":"http://dummyimage.com/400x400.png/ff4444/ffffff"},
+{"id":11,"city":"Napoli","prezzo":800.771,"metri_quadrati":437,"numero_camere":1,"giardino":false,"piscina":false,"vista_mare":false,"home":true,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":12,"city":"San Francisco","prezzo":1.120928,"metri_quadrati":303,"numero_camere":9,"giardino":false,"piscina":false,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/5fa2dd/ffffff"},
+{"id":13,"city":"San Paolo","prezzo":869.623,"metri_quadrati":927,"numero_camere":9,"giardino":true,"piscina":true,"vista_mare":false,"home":true,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":14,"city":"Miami","prezzo":878.754,"metri_quadrati":283,"numero_camere":9,"giardino":false,"piscina":false,"vista_mare":false,"home":false,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"},
+{"id":15,"city":"Roma","prezzo":766.773,"metri_quadrati":139,"numero_camere":9,"giardino":true,"piscina":false,"vista_mare":false,"home":false,"immagine":"http://dummyimage.com/400x400.png/5fa2dd/ffffff"},
+{"id":16,"city":"Bologna","prezzo":1.373614,"metri_quadrati":688,"numero_camere":2,"giardino":false,"piscina":true,"vista_mare":false,"home":true,"immagine":"http://dummyimage.com/400x400.png/dddddd/000000"},
+{"id":17,"city":"Los Angeles","prezzo":1.711488,"metri_quadrati":961,"numero_camere":10,"giardino":true,"piscina":false,"vista_mare":true,"home":false,"immagine":"http://dummyimage.com/400x400.png/5fa2dd/ffffff"},
+{"id":18,"city":"New York","prezzo":2.133528,"metri_quadrati":414,"numero_camere":1,"giardino":false,"piscina":false,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/dddddd/000000"},
+{"id":19,"city":"New York","prezzo":1.514677,"metri_quadrati":108,"numero_camere":8,"giardino":false,"piscina":false,"vista_mare":true,"home":true,"immagine":"http://dummyimage.com/400x400.png/ff4444/ffffff"},
+{"id":20,"city":"Miami","prezzo":840.037,"metri_quadrati":827,"numero_camere":2,"giardino":true,"piscina":false,"vista_mare":true,"home":false,"immagine":"http://dummyimage.com/400x400.png/cc0000/ffffff"}
+
+]
