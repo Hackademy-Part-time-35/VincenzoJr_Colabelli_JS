@@ -121,6 +121,7 @@
 .card {
 --bs-card-border-radius: none;
 --bs-card-inner-border-radius: none;
+
 }
 
 .btn {
@@ -150,3 +151,25 @@
     font-weight: lighter;
     
 }
+
+
+/* Pagina Annunci */
+
+
+.form-check-input:checked {
+    background-color: var(--myTitle);
+    border-color: var(--myTitle);
+}
+
+.form-check-input {
+
+    border: var(--bs-border-width) solid var(--myTitle);
+    
+}
+
+.form-check-input:focus {
+    border-color: var(--hover-items);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--hover-items);
+}
+
