@@ -16,7 +16,7 @@ fetch('./dati/elenco_immobili.json')
                 
                 let colonna = document.createElement('div');
                 
-                colonna.classList.add('col-6', 'mb-4');
+                colonna.classList.add('col-12','col-md-6', 'mb-4');
 
                 colonna.innerHTML = `
                 <div class="card">
@@ -51,7 +51,7 @@ fetch('./dati/elenco_immobili.json')
             elencoUnicheCity.forEach((singola_city) =>{
 
                 let div = document.createElement('div');
-                div.classList.add('form-check');
+                div.classList.add('form-check',);
 
                 div.innerHTML = `
                 <input checked class="form-check-input" type="radio" name="sel_citta" id="${singola_city}">
