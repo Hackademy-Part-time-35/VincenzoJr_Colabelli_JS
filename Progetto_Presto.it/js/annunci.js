@@ -20,7 +20,7 @@ fetch('./dati/elenco_immobili.json')
 
                 colonna.innerHTML = `
                 <div class="card">
-                        <img src="${annuncio.immagine}">
+                        <img class="img-fluid mh-100" src="${annuncio.immagine}">
                         <div class="card-body">
                             <a href="#" class="card-title titoli-card">${annuncio.city}</a>
                         <h5 class="my-3 fw-light">${annuncio.prezzo} €</h5>
@@ -54,7 +54,7 @@ fetch('./dati/elenco_immobili.json')
                 div.classList.add('form-check');
 
                 div.innerHTML = `
-                <input checked class="form-check-input" type="radio" name="sel_citta" id="${singola_city}">
+                <input class="form-check-input" type="radio" name="sel_citta" id="${singola_city}">
                 <label class="form-check-label" for="${singola_city}">${singola_city}
                 </label>
                 

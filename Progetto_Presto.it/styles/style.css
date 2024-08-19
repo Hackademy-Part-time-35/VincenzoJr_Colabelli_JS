@@ -84,18 +84,20 @@
 }
 
 .my-img-text {
-    display: none;
-}
-
-:hover.my-img .my-img-text {
+    opacity: 0;
     backdrop-filter: blur(6px);
     width: 100%;
     letter-spacing: 0.3rem;
     color: var(--my-color-white);
-    display: inline-block;
-    animation: fadeInLeft;
+    animation: fadeInLeft 2s forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+    }
 }
 
 .button-color {
